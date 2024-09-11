@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.API", "Pharmacy.API\Pharmacy.API.csproj", "{788A69A9-2D19-451C-BD1F-CD8921B24F0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C9BED2A4-2A04-4DA0-9E08-7D64B5605B1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F58101AA-75CB-4781-A92A-7E5067DE4C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Test", "Pharmacy.Test\Pharmacy.Test.csproj", "{50133CF1-59D8-424C-BF9D-5AAEAB866A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Domain", "Pharmacy.Domain\Pharmacy.Domain.csproj", "{8B30C204-5956-454E-8857-C65E1FA9E893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Application", "Pharmacy.Application\Pharmacy.Application.csproj", "{5151B16F-AFC1-4057-8598-98DB2748CC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Infrastructure", "Pharmacy.Infrastructure\Pharmacy.Infrastructure.csproj", "{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{788A69A9-2D19-451C-BD1F-CD8921B24F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788A69A9-2D19-451C-BD1F-CD8921B24F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788A69A9-2D19-451C-BD1F-CD8921B24F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788A69A9-2D19-451C-BD1F-CD8921B24F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50133CF1-59D8-424C-BF9D-5AAEAB866A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50133CF1-59D8-424C-BF9D-5AAEAB866A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50133CF1-59D8-424C-BF9D-5AAEAB866A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50133CF1-59D8-424C-BF9D-5AAEAB866A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B30C204-5956-454E-8857-C65E1FA9E893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B30C204-5956-454E-8857-C65E1FA9E893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B30C204-5956-454E-8857-C65E1FA9E893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B30C204-5956-454E-8857-C65E1FA9E893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5151B16F-AFC1-4057-8598-98DB2748CC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5151B16F-AFC1-4057-8598-98DB2748CC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5151B16F-AFC1-4057-8598-98DB2748CC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5151B16F-AFC1-4057-8598-98DB2748CC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{788A69A9-2D19-451C-BD1F-CD8921B24F0C} = {C9BED2A4-2A04-4DA0-9E08-7D64B5605B1D}
+		{50133CF1-59D8-424C-BF9D-5AAEAB866A28} = {F58101AA-75CB-4781-A92A-7E5067DE4C52}
+		{8B30C204-5956-454E-8857-C65E1FA9E893} = {C9BED2A4-2A04-4DA0-9E08-7D64B5605B1D}
+		{5151B16F-AFC1-4057-8598-98DB2748CC1F} = {C9BED2A4-2A04-4DA0-9E08-7D64B5605B1D}
+		{93ABE51E-B5C9-48C2-ADBA-E7AA90ED788D} = {C9BED2A4-2A04-4DA0-9E08-7D64B5605B1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AABA782C-4B86-4F82-800E-34B81B3FB3CB}
+	EndGlobalSection
+EndGlobal
